@@ -6,6 +6,9 @@ app = Flask(__name__)
 def root():
     return 'root'
 
+def upload_file():
+    return "Hola mundo"
+
 if __name__ == "__main__":
     app.run(debug=True)
     

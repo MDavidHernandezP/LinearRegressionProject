@@ -46,16 +46,15 @@ body {
     margin-bottom: 20px;
   }
   
-  #seccion1, #seccion2, #seccion3 {
+  #seccion1, #seccion3 {
     float: left;
-    width: 33.33%;
+    width: 50%;
+    height: 200px;
   }
   
   #seccion4, #seccion5 {
     float: left;
-    width: 35%;
-    margin-left: -10%;
-    padding: 10px;
+    width: 50%;
   }
 
   footer {
@@ -66,7 +65,7 @@ body {
   
   #archivo {
     width: 100%;
-    height: 250px;
+    height: 35px;
   }
   
   #guardar, #limpiar, #entrenar, #predecir {
