@@ -21,35 +21,41 @@
     <section id="seccion1">
       <h2>Upload section</h2>
       <p>Selecciona un archivo.</p>
-      <forms>
+      <form>
         <input type="file" id="archivo">
         <button type="button" id="guardar">Guardar</button>
-      </forms>
+      </form>
       <table id="tabla-datos"></table>
     </section>
 
     <section id="seccion3">
       <h2>Cleaning section</h2>
       <p>Limpiar el archivo seleccionado.</p>
-      <forms>
+      <form>
         <button type="button" id="limpiar">Limpiar</button>
-      </forms>
+      </form>
     </section>
     
     <section id="seccion4">
       <h2>Training section</h2>
       <p>Entrena los datos limpios.</p>
-      <forms>
+      <form>
         <button type="button" id="entrenar">Entrenar</button>
-      </forms>
+      </form>
     </section>
     
     <section id="seccion5">
       <h2>Prediction section</h2>
       <p>Realiza la predicción de los datos.</p>
-      <forms>
+      <form>
+        <input type="text" placeholder="price m2..." id="prediction">
+        <input type="text" placeholder="surface..." id="prediction">
+        <input type="text" placeholder="covered..." id="prediction">
+        <input type="text" placeholder="lat..." id="prediction">
+        <input type="text" placeholder="lon..."id="prediction">
         <button type="button" id="predecir">Predecir</button>
-      </forms>
+      </form>
+      <p id="prediction-text">Texto abajo de todo, una palabra, lo que sea.</p>
     </section>
   </main>
   
